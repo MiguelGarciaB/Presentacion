@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Web de ofrecimiento</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo-cop.css" type="text/css" >
+	<link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e1ae11b185.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<a name="inicio"></a>
+	<nav id="navegador">
+			<ul>
+				<il><a href="nav-cop.html#inicio">Inicio</a></il>
+				<il><a href="nav-cop.html#sobre-mi">Sobre mí</a></il>
+				<il><a href="nav-cop.html#servicios">Servicios</a></il>
+				<il><a href="nav-cop.html#contacto">Contacto</a></il>
+			</ul>
+			
+	</nav>
+	<header>
+		
+		
+		<div id="letrasportada">
+			<h1>Miguel Ángel García</h1>
+			<h2>Desarrollador de aplicaciones multiplataforma | Desarrollador web</h2>
+		</div>
+
+		<div class="ola" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-41.48,32.06 C149.99,150.00 291.48,-10.36 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: white;"></path></svg></div> 
+
+	</header>  
+	
+	<a name="sobre-mi">
+	<section class="contenedor-sobre-mi">
+		
+		
+		<h2 class="titulo-sobre-mi">SOBRE MÍ</h2>
+		<div id="parrafo-ini">
+			<p class="parrafo-sobre-mi">Hola, mi nombre es Miguel Ángel, soy graduado en
+			 Magisterio con Mención en Tecnología aunque actualmente curso 
+			desarrollo de aplicaciones multiplataforma y poseo
+			gran conocimiento sobre desarrollo web. <br>
+			Tengo una experiencia de 1 año con el diseño de
+			pequeñas apps y prototipos de webs como la que está viendo y poseo manejo 
+			de robótica educativa. <br>
+			Entre mis habilidades y conocimientos están:	
+				<ul type="circle" id="lista" >
+  					<li>HTML</li>
+  					<li>CSS</li>
+  					<li>JAVA</li>
+  					<li>C#</li>
+  					<li>SQL</li>
+  					<li>MYSQL</li>
+				</ul>
+			</p>
+			
+		</div>
+		<div id="imagen-sobre-mi">
+
+			<!--<img src="img/portada.jpg" id="imagen" width="400" height="400">-->
+			<div id="imagen"></div>
+
+			
+			
+		</div>
+	</section>
+
+	<a name="servicios">
+	<section class="contenedor-servicios">
+		<h2 class="titulo-servicios">SERVICIOS</h2>
+		<div id="div-servicios">
+
+			<div id="movil">
+
+				<i class="fas fa-tablet"></i>
+				<p>Desarrollo de app tanto web como móvil con un trato cercano e individualizado, para 
+					alcanzar los objetivos que necesite.
+				</p>
+
+			</div>
+
+			<div id="app">
+				<i class="fab fa-html5"></i>
+				<p>Creación de web profesional mediante lenguaje HTML y CSS, adaptable a cualquier
+					dispositivo móvil.
+				</p>
+
+			</div>
+
+			<div id="ventas">
+
+				<i class="fas fa-euro-sign"></i>
+
+				<p>El uso de una web o app para su negocio aumenta su visibilidad y sus ventas pueden
+				aumentar hasta un <u> 15%</u> según numerosos estudios, por ello también le ofrecemos un servicio
+				SEO para el marketing de su web.
+				</p>
+			</div>
+
+		</div>
+	</section>
+
+	<a name="contacto">
+	<section class="contenedor-contacto">
+
+		<div id="div-contacto">
+
+			<h2 class="titulo-contacto">CONTACTO</h2>
+
+		</div>
+		<form id="formulario" action="enviar.php" method="post">
+			<input type="text" name="nombre" placeholder="Nombre" required>
+			<input type="email" name="email" placeholder="E-mail" required>
+			<textarea id="textarea" name="texto" placeholder="Escribe tu proyecto..." cols="20" rows="20" required></textarea>
+			<input type="submit" value="Enviar" width="150" height="50" >
+		</form>
+	</section>
+
+
+	<footer id="footer">&#64; Derechos de autor de Miguel Ángel García</footer>
+	
+</body>
+</html>
